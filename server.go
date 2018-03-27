@@ -96,7 +96,6 @@ func handleConnection(c websocket.Connection) {
 			panic(err)
 		}
 		message.ID = bson.NewObjectId()
-		// spew.Dump(message)
 
 		if err := db.DB("chatapp").C("message").Insert(&message); err != nil {
 			panic(err)
@@ -139,8 +138,8 @@ func authMiddleware(ctx iris.Context) {
 	if err != nil {
 		fmt.Println(err)
 		fmt.Println("Token is not valid:", token)
-		ctx.StatusCode(iris.StatusUnauthorized)
-		ctx.Write([]byte("Unauthorized"))
+		// ctx.StatusCode(iris.StatusUnauthorized)
+		// ctx.Write([]byte("Unauthorized"))
 
 	} else {
 		ctx.Next()
