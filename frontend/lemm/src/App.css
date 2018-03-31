@@ -1,5 +1,26 @@
-#input-form {
-  position: absolute;
-  bottom: 20px;
-  max-width: 1140px;
+
+#root{
+    height: 100vh;
+    position: relative;
 }
+#input-form {
+    position: fixed;
+    width: 65%;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+#message-case{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.msg {
+     margin-bottom: 10px;
+}
+
+figure.is-rounded > img{
+      border-radius: 50%;
+}
+
