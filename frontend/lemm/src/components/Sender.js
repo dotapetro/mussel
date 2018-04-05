@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import {socket} from "../App";
-//import {default as $} from "jquery"
 import {connect} from 'react-redux';
-import {default as $} from "jquery"
 
 const mapStateToProps = state => {
     return {
-        user: state.user
+        user: state.user,
+        current: state.chats.current,
     }
 };
 
@@ -26,11 +25,11 @@ class Sender extends Component {
             return
         }
 
-        let token = "Bearer " + localStorage.getItem("id_token");
+        let token = localStorage.getItem("id_token");
         let request = {user: {name: "", nickname:"", gender:"", picture: ""}, message: this.input.value};
         this.input.value = "";
 
-        socket.Emit("chat", JSON.stringify({token: token,payload: JSON.stringify(request)}));// send chat event data to the websocket server
+        socket.emit("chat", JSON.stringify({token: token, chat: this.props.current, payload: JSON.stringify(request)}));// send chat event data to the websocket server
     }
 
     checkEnterThenSend(e){
@@ -48,15 +47,17 @@ class Sender extends Component {
 
         for(let i = 0; i < times; i++){
             console.log("ping");
-            let l = "Bearer " + localStorage.getItem("id_token");
-            let request = {user_raw: l, user: {name: "", nickname:"", gender:"", picture: ""}, message: "payload"};
-            socket.Emit("chat", JSON.stringify(request));// send chat event data to the websocket server
+
+            let token = localStorage.getItem("id_token");
+            let request = {user: {name: "", nickname:"", gender:"", picture: ""}, message: "payload"};
+
+            socket.emit("chat", JSON.stringify({token: token, chat: this.props.current, payload: JSON.stringify(request)}));// send chat event data to the websocket server
         }
     }
 
 
     componentWillMount(){
-        //setTimeout(()=>this.ping(1), 1000)
+        setTimeout(()=>this.ping(0), 1000)
     }
 
 

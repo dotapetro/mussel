@@ -3,13 +3,11 @@ import React, { Component } from 'react';
 import "../node_modules/bulma/css/bulma.css"
 import './App.css';
 
-import {Ws} from './lib/ws'
-
 import {store, chatNewMsg, loadInitialPosts, loadUser, setUser, logoutUser} from "./redux/redux_setup"
 import {Provider} from "react-redux"
 import {WebAuth} from "auth0-js";
 import {default as $} from "jquery"
-import {default as axs} from "axios";
+import io from 'socket.io-client';
 
 import Sender from "./components/Sender"
 import MessageShowcase from  "./components/MessageShowcase"
@@ -18,28 +16,26 @@ import ChatsShowcase from "./components/ChatsShowcase"
 
 const AUTH0_CLIENT_ID='3H5g5o08lUSWtJHarZD7RexkSYIWYjOY';
 const AUTH0_DOMAIN='mussel.auth0.com';
-const AUTH0_CALLBACK_URL='http://localhost:1234/';
 const AUTH0_API_AUDIENCE='https://mussel.auth0.com/api/v2/';
 
-// Ws comes from the auto-served '/iris-ws.js'
-const socket = new Ws("ws://localhost:8000/echo");
+// import socket from "./lib/socket.io-1.3.7"
+const socket = io("http://localhost:8000/", {transports: ['websocket']});
 
-socket.OnConnect(function () {
+socket.on("connect", function () {
     console.log("Status: Connected\n");
     let token = localStorage.getItem("id_token");
-    console.log("tkn! :", token);
     let req = JSON.stringify({token: token, payload: ""});
-    console.log("req!", req);
-    socket.Emit("get_chats", req)
+    socket.emit("get_chats", req)
 });
 
-socket.OnDisconnect(function () {
+socket.on("disconnect", function () {
     console.log("Status: Disconnected\n");
 });
 
 
 // read events from the server
-socket.On("chat", function (response) {
+socket.on("chat", function (response) {
+    console.log("NEW MSG!!!");
     if(localStorage.getItem("onPing") === "true"){
 
         let remained = parseInt(localStorage.getItem("pingRemained"));
@@ -55,14 +51,14 @@ socket.On("chat", function (response) {
             console.log("Remained:", remained, "out of", localStorage.getItem('pingTimes'));
             localStorage.setItem("pingRemained", remained.toString());
         }
-
     }
-    response = JSON.parse(response);
+    console.log("MSF", response);
     store.dispatch(chatNewMsg(response));
+
 });
 
-socket.On("get_chats", function (response) {
-    response = JSON.parse(response);
+socket.on("get_chats", function (response) {
+    console.log("RESP: gc: ",response);
 
     store.dispatch({type: "FETCH_CHAT", payload: response});
     store.dispatch({type: "FETCH_CHAT_COMPLETE"});

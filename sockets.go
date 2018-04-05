@@ -2,67 +2,14 @@ package main
 
 import (
 	"encoding/json"
-	// "github.com/davecgh/go-spew/spew"
+
 	"github.com/globalsign/mgo/bson"
-	"github.com/kataras/iris/websocket"
+	"github.com/googollee/go-socket.io"
 	"log"
 )
 
-func handleConnection(c websocket.Connection) {
-	// Read events from browser
-	chatSendHandler(c)
-
-}
-
-func chatSendHandler(c websocket.Connection) {
-	c.On("chat", func(basicRequest string) {
-		// Unmarshal message into obj
-		message := Message{}
-		r := SocketRequest{}
-
-		err := json.Unmarshal([]byte(basicRequest), &r)
-		if err != nil {
-			panic(err)
-		}
-
-		err = json.Unmarshal([]byte(r.Payload), &message)
-		if err != nil {
-			panic(err)
-		}
-
-		// Generate new ID
-		message.ID = bson.NewObjectId()
-
-		// Get actual user from JWT
-		claims, err := getUserClaims(r.Token)
-		if err != nil {
-			c.Emit("err", err)
-			return
-		}
-
-		// Some tweak with User`s id
-		message.User.Id = getUserID(claims["sub"])
-
-		// Assign all stuff
-		message.User.Name = claims["name"]
-		message.User.Nick = claims["nickname"]
-		message.User.Picture = claims["picture"]
-
-		b, err := json.Marshal(message)
-		if err != nil {
-			panic(err)
-		}
-
-		// Emit msg to all
-		c.To(websocket.All).Emit("chat", b)
-
-		if err := db.DB("chatapp").C("message").Insert(message); err != nil {
-			panic(err)
-		}
-	})
-
-	c.On("get_chats", func(request string) {
-
+func handleConnection(so socketio.Socket) {
+	so.On("get_chats", func(request string) {
 		r := SocketRequest{}
 		err := json.Unmarshal([]byte(request), &r)
 
@@ -83,10 +30,70 @@ func chatSendHandler(c websocket.Connection) {
 
 		if len(chats) == 0 {
 			log.Println("CREATING NEW TEST CHAT")
-			chat := Chat{Users: []string{"101768425906179634408"}, ID: bson.NewObjectId(), Name: "test_chat"}
+			id := bson.NewObjectId()
+			log.Println("ID", id)
+			chat := Chat{Users: []string{"101768425906179634408"}, ID: id, Name: "Go club"}
 			db.DB("chatapp").C("chats").Insert(chat)
 			chats = append(chats, chat)
 		}
-		c.Emit("get_chats", chats)
+
+		if err := so.Join("chat"); err != nil {
+			log.Println("err(join)", err)
+		}
+
+		so.Emit("get_chats", chats)
 	})
+
+	so.On("chat", func(request string) {
+
+		r := SocketChatRequest{}
+		err := json.Unmarshal([]byte(request), &r)
+		if err != nil {
+			panic(err)
+		}
+
+		user, err := getUserClaims("Bearer " + r.Token)
+
+		if err != nil {
+			log.Println("err (claims): ", err)
+			log.Println("tkn", r.Token)
+		}
+
+		userID := getUserID(user["sub"])
+
+		chat := Chat{}
+
+		db.DB("chatapp").C("chats").Find(bson.M{"$and": []bson.M{{"_id": bson.ObjectIdHex(r.Chat)}, {"users": bson.M{"$in": []string{userID}}}}}).One(&chat)
+
+		if len(chat.Users) == 0 {
+			log.Println("Not found")
+			return
+		}
+
+		msg := Message{}
+		err = json.Unmarshal([]byte(r.Payload), &msg)
+		if err != nil {
+			panic(err)
+		}
+
+		msg.ID = bson.NewObjectId()
+		msg.User.Id = userID
+		msg.User.Name = user["name"]
+		msg.User.Nick = user["nickname"]
+		msg.User.Picture = user["picture"]
+
+		id := bson.ObjectIdHex(r.Chat)
+
+		if err := db.DB("chatapp").C("chats").UpdateId(id, bson.M{"$push": bson.M{"messages": msg}}); err != nil {
+			log.Println("Update err ", err)
+			return
+		}
+
+		log.Println("broadcasting to", so.Rooms())
+
+		if err := so.Emit("chat", BroadcastMessage{msg, r.Chat}); err != nil {
+			log.Println("err(broadcasting)", err)
+		}
+	})
+
 }

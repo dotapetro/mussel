@@ -19,6 +19,7 @@ const userReducer = (state=false, action)=> {
 
 const chatsInitial = {
     chats: [],
+    current: null,
     fetching: true,
     error: null,
 };
@@ -26,24 +27,21 @@ const chatsInitial = {
 const chatReducer = (state=chatsInitial, action)=> {
     switch(action.type){
         case "FETCH_CHAT":
-            state.chats = action.payload;
-            console.log("FETCH CALLED!!!");
-            console.log("pl:", action.payload);
-
-            return {...state, chats: action.payload};
+            return {...state, chats: action.payload, current: action.payload[0].id};
+        case "SET_CURRENT":
+            return {...state, current: action.payload};
         case "FETCH_CHAT_START":
             return {...state, fetching: true};
         case "FETCH_CHAT_ERR":
             return {...state, err: action.payload};
         case "CHAT_NEW_MSG":
-            let newChat = state.chats;
-
-            if (newChat === null){
-                newChat = []
+            let newChats = state.chats;
+            let pos = state.chats.map(function(e) { return e.id; }).indexOf(action.payload.chat_id);
+            if(newChats[pos].messages === null){
+                newChats[pos].messages = []
             }
-
-            newChat.push(action.payload);
-            return {...state, chats: newChat};
+            newChats[pos].messages.push(action.payload.message);
+            return {...state, chats: newChats};
         case "FETCH_CHAT_COMPLETE":
 
             return {...state, fetching: false};
@@ -84,11 +82,8 @@ export const loadInitialPosts = ()=> {
 
 };
 
-export const loadChats = ()=> {
-    return (dispatch)=>{
-        dispatch({type: "FETCH_CHAT_START"});
-
-    }
+export const setCurrent = (payload)=> {
+        return store.dispatch({type: "SET_CURRENT", payload})
 
 };
 

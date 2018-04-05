@@ -4,10 +4,13 @@ import (
 	"github.com/globalsign/mgo"
 
 	"github.com/kataras/iris"
-	"github.com/kataras/iris/websocket"
 
 	"github.com/auth0-community/auth0"
-	jose "gopkg.in/square/go-jose.v2"
+	"github.com/googollee/go-socket.io"
+	"gopkg.in/square/go-jose.v2"
+
+	"log"
+	"net/http"
 )
 
 var db, dbErr = mgo.Dial("localhost")
@@ -40,23 +43,34 @@ func main() {
 
 	})
 
-	setupWebsocket(app)
+	// setup Websocket (app)
+
+	server, err := socketio.NewServer(nil)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	server.On("connection", func(so socketio.Socket) {
+		log.Println("connecting")
+		// Get all chats
+
+		handleConnection(so)
+
+		so.On("disconnection", func() {
+			log.Println("on disconnect")
+		})
+	})
+
+	server.On("error", func(so socketio.Socket, err error) {
+		log.Println("error:", err)
+	})
+
 	handleMessages(app)
 	handleTest(app)
 
-	app.Run(iris.Addr(":8000"))
-}
+	http.Handle("/socket.io/", server)
+	log.Fatal(http.ListenAndServe(":8000", nil))
 
-func setupWebsocket(app *iris.Application) {
-	// create our echo websocket server
-	ws := websocket.New(websocket.Config{
-		ReadBufferSize:    2048,
-		WriteBufferSize:   2048,
-		MaxMessageSize:    2048,
-		EnableCompression: true,
-	})
-	ws.OnConnection(handleConnection)
-
-	// register the server on an endpoint.
-	app.Get("/echo", ws.Handler())
+	//app.Any("/socket.io/{p:path}", iris.FromStd(server))
+	//app.Run(iris.Addr(":8000"))
 }

@@ -2,92 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4870e03-1fb1-4d15-98b0-f1750da2985e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/lemm/src/components/ChatsShowcase.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/lemm/src/components/NavbarMain.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/lemm/src/components/Profile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/func.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/handlers.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sockets.go" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/db/WiredTiger" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/WiredTiger.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/WiredTiger.turtle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/WiredTiger.wt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/WiredTigerLAS.wt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/_mdb_catalog.wt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/collection-0--4666773218305001316.wt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/collection-0-3239045969336666374.wt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/collection-2-3239045969336666374.wt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/collection-4-3239045969336666374.wt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.2018-03-24T15-08-36Z-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.2018-03-25T07-43-24Z-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.2018-03-25T17-58-01Z-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.2018-03-25T18-10-34Z-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.2018-03-27T12-06-40Z-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.2018-03-27T13-12-30Z-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.2018-03-27T14-33-29Z-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.2018-03-27T15-29-01Z-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.2018-03-27T16-43-48Z-00000" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.interim" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/index-1--4666773218305001316.wt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/index-1-3239045969336666374.wt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/index-3-3239045969336666374.wt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/index-5-3239045969336666374.wt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/index-6-3239045969336666374.wt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000009" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/journal/WiredTigerPreplog.0000000001" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/journal/WiredTigerPreplog.0000000002" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/mongod.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/sizeStorer.wt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/db/storage.bson" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm/package-lock.json" afterPath="$PROJECT_DIR$/frontend/lemm/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm/package.json" afterPath="$PROJECT_DIR$/frontend/lemm/package.json" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm/public/index.html" afterPath="$PROJECT_DIR$/frontend/lemm/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm/src/App.css" afterPath="$PROJECT_DIR$/frontend/lemm/src/App.css" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm/src/App.js" afterPath="$PROJECT_DIR$/frontend/lemm/src/App.js" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm/src/components/MessageShowcase.js" afterPath="$PROJECT_DIR$/frontend/lemm/src/components/MessageShowcase.js" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm/src/components/Sender.js" afterPath="$PROJECT_DIR$/frontend/lemm/src/components/Sender.js" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm/src/redux/redux_setup.js" afterPath="$PROJECT_DIR$/frontend/lemm/src/redux/redux_setup.js" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/public/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/public/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/public/manifest.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/src/App.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/src/App.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/src/App.test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/src/components/MessageShowcase.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/src/components/Sender.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/src/index.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/src/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/src/lib/ws.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/src/logo.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/src/redux/redux_setup.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/lemm_copy/src/registerServiceWorker.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/public/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/public/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/public/manifest.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/src/App.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/src/App.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/src/App.test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/src/components/MessageShowcase.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/src/components/Sender.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/src/index.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/src/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/src/lib/ws.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/src/logo.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/src/redux/redux_setup.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/mussle/src/registerServiceWorker.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/models.go" afterPath="$PROJECT_DIR$/models.go" />
-      <change beforePath="$PROJECT_DIR$/server.go" afterPath="$PROJECT_DIR$/server.go" />
-      <change beforePath="$PROJECT_DIR$/templates/client.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/websockets.html" afterPath="" />
+      <change afterPath="$PROJECT_DIR$/frontend/lemm/src/lib/socket.io-1.3.7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/db/WiredTiger.turtle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/_mdb_catalog.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/collection-2--3974159095830172276.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/collection-2--3974159095830172276.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/collection-30-2070825560180876087.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/index-3--3974159095830172276.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-3--3974159095830172276.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/index-31-2070825560180876087.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000008" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/db/mongod.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/sizeStorer.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lemm/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lemm/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lemm/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lemm/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lemm/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lemm/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lemm/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lemm/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lemm/src/components/ChatsShowcase.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lemm/src/components/ChatsShowcase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lemm/src/components/MessageShowcase.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lemm/src/components/MessageShowcase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lemm/src/components/Sender.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lemm/src/components/Sender.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lemm/src/lib/ws.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/lemm/src/redux/redux_setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lemm/src/redux/redux_setup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sockets.go" beforeDir="false" afterPath="$PROJECT_DIR$/sockets.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -98,13 +36,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sockets.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sockets.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sockets.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="83" column="28" lean-forward="false" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+            <state relative-caret-position="223">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
               <folding>
-                <element signature="e#14#157#0" expanded="true" />
+                <element signature="e#14#205#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,9 +60,8 @@
       <file leaf-file-name="models.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="76">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -123,8 +69,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/lemm/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state relative-caret-position="-587">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -135,10 +81,22 @@
       <file leaf-file-name="ChatsShowcase.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/lemm/src/components/ChatsShowcase.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="569">
+              <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redux_setup.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/lemm/src/redux/redux_setup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-961">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#38#106#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,21 +105,20 @@
       <file leaf-file-name="MessageShowcase.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/lemm/src/components/MessageShowcase.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="57" />
-              <folding />
+            <state relative-caret-position="459">
+              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redux_setup.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/lemm/src/redux/redux_setup.js">
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/lemm/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="e#38#106#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -169,9 +126,11 @@
       <file leaf-file-name="Sender.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/lemm/src/components/Sender.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="603">
+              <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -210,6 +169,9 @@
       <find>chat</find>
       <find>user</find>
       <find>localStorage.remove</find>
+      <find>socket</find>
+      <find>socket.e</find>
+      <find>get_cha</find>
     </findStrings>
     <replaceStrings>
       <replace>className</replace>
@@ -252,7 +214,6 @@
         <option value="B:/Programs/GoPath/Go/src/github.com/auth0-community/auth0/auth0.go" />
         <option value="$PROJECT_DIR$/frontend/lemm/public/index.html" />
         <option value="$PROJECT_DIR$/frontend/lemm/node_modules/bulma/css/bulma.css" />
-        <option value="$PROJECT_DIR$/frontend/lemm/src/App.css" />
         <option value="$PROJECT_DIR$/frontend/lemm/src/components/Profile.js" />
         <option value="$PROJECT_DIR$/api/sockets/chat.go" />
         <option value="$PROJECT_DIR$/chat.go" />
@@ -260,14 +221,15 @@
         <option value="$PROJECT_DIR$/func.go" />
         <option value="$PROJECT_DIR$/frontend/lemm/src/components/NavbarMain.js" />
         <option value="$PROJECT_DIR$/handlers.go" />
-        <option value="$PROJECT_DIR$/server.go" />
+        <option value="$PROJECT_DIR$/frontend/lemm/src/components/ChatsShowcase.js" />
         <option value="$PROJECT_DIR$/models.go" />
+        <option value="$PROJECT_DIR$/frontend/lemm/src/redux/redux_setup.js" />
+        <option value="$PROJECT_DIR$/frontend/lemm/src/App.js" />
+        <option value="$PROJECT_DIR$/server.go" />
+        <option value="$PROJECT_DIR$/sockets.go" />
         <option value="$PROJECT_DIR$/frontend/lemm/src/components/Sender.js" />
         <option value="$PROJECT_DIR$/frontend/lemm/src/components/MessageShowcase.js" />
-        <option value="$PROJECT_DIR$/frontend/lemm/src/redux/redux_setup.js" />
-        <option value="$PROJECT_DIR$/frontend/lemm/src/components/ChatsShowcase.js" />
-        <option value="$PROJECT_DIR$/frontend/lemm/src/App.js" />
-        <option value="$PROJECT_DIR$/sockets.go" />
+        <option value="$PROJECT_DIR$/frontend/lemm/src/App.css" />
       </list>
     </option>
   </component>
@@ -290,21 +252,11 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,40 +282,24 @@
               <item name="lemm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mussel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mussel" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="lemm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mussel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mussel" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="lemm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="go.sdk.automatically.set" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="nodejs.protractor.protractor_package" value="" />
-    <property name="nodejs.jest.jest_package" value="" />
-    <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="SearchEverywhereHistoryKey" value="setUser&#9;null&#9;null" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="B:/Programs/GoPath/Go/src/github.com/googollee/go-socket.io/example" />
+    <property name="nodejs.jest.jest_package" value="" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -430,25 +366,22 @@
       <filePath value="$PROJECT_DIR$/werwer/wer.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Build.go build server.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Build.go build server.go (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build wer.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build models.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build server.go (2)" />
+    <list>
+      <item itemvalue="Go Build.go build server.go" />
+      <item itemvalue="Go Build.go build server.go (1)" />
+      <item itemvalue="Go Build.go build wer.go" />
+      <item itemvalue="Go Build.go build models.go" />
+      <item itemvalue="Go Build.go build server.go (2)" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build server.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build server.go (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build server.go (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build models.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build wer.go" />
+      <list>
+        <item itemvalue="Go Build.go build server.go" />
+        <item itemvalue="Go Build.go build server.go (2)" />
+        <item itemvalue="Go Build.go build server.go (1)" />
+        <item itemvalue="Go Build.go build models.go" />
+        <item itemvalue="Go Build.go build wer.go" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,42 +396,43 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3075693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21847826" sideWeight="0.53198296" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21847826" sideWeight="0.46801707" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22173913" sideWeight="0.45309168" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993046" visible="true" weight="0.21108742" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32934782" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.53411514" side_tool="true" visible="true" weight="0.2167756" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.46588486" weight="0.2167756" />
+      <window_info id="Structure" order="1" sideWeight="0.5006954" side_tool="true" weight="0.20895523" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4520256" weight="0.22004357" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4978678" weight="0.32934782" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21847826" sideWeight="0.53198296" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21847826" sideWeight="0.46801707" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22173913" sideWeight="0.45309168" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3075693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3075693" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32934782" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46801707" visible="true" weight="0.21847826" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4978678" weight="0.32934782" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.45309168" weight="0.22173913" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.53198296" side_tool="true" visible="true" weight="0.21847826" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,12 +510,27 @@
       </breakpoints-dialog>
       <option name="time" value="29" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/frontend/lemm/src/components/ChatsShowcase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="55" lean-forward="true" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/lemm/src/components/Sender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/werwer/wer.go" />
     <entry file="file://$PROJECT_DIR$/werwer/eswrwer.html" />
-    <entry file="file://$PROJECT_DIR$/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/frontend/mussel/package.json" />
     <entry file="file://$PROJECT_DIR$/frontend/mulo/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/frontend/mulo/yarn.lock" />
@@ -601,76 +550,63 @@
     <entry file="file://$PROJECT_DIR$/frontend/mussle/node_modules/react-scripts/template/README.md" />
     <entry file="file://$PROJECT_DIR$/frontend/lemm123/src/lib/ws.js" />
     <entry file="file://$PROJECT_DIR$/frontend/lemm123/package.json" />
-    <entry file="file://$PROJECT_DIR$/frontend/lemm/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/mussle/src/App.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/lemm/src/lib/ws.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3001">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/lemm/src/lib/ws.js" />
     <entry file="file://C:/Go/src/net/http/header.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Go/src/runtime/asm_amd64.s">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="2360" column="0" lean-forward="false" selection-start-line="2360" selection-start-column="0" selection-end-line="2360" selection-end-column="0" />
+          <caret line="2360" selection-start-line="2360" selection-end-line="2360" />
         </state>
       </provider>
     </entry>
     <entry file="file://B:/Programs/GoPath/Go/src/github.com/kataras/iris/websocket/server.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
         </state>
       </provider>
     </entry>
     <entry file="file://B:/Programs/GoPath/Go/src/github.com/kataras/iris/websocket/connection.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
+          <caret line="380" selection-start-line="380" selection-end-line="380" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Go/src/net/http/server.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="1725" column="0" lean-forward="false" selection-start-line="1725" selection-start-column="0" selection-end-line="1725" selection-end-column="0" />
+          <caret line="1725" selection-start-line="1725" selection-end-line="1725" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Go/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="504" column="0" lean-forward="false" selection-start-line="504" selection-start-column="0" selection-end-line="504" selection-end-column="0" />
+          <caret line="504" selection-start-line="504" selection-end-line="504" />
         </state>
       </provider>
     </entry>
     <entry file="file://B:/Programs/GoPath/Go/src/github.com/square/go-jose/encoding.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://B:/Programs/GoPath/Go/src/github.com/auth0-community/auth0/auth0.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
-          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
           <folding>
-            <element signature="e#15#120#0" expanded="false" />
+            <element signature="e#15#120#0" />
           </folding>
         </state>
       </provider>
@@ -678,15 +614,7 @@
     <entry file="file://B:/Programs/GoPath/Go/src/gopkg.in/square/go-jose.v2/jwt/jwt.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/lemm/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
@@ -694,104 +622,94 @@
     <entry file="file://$PROJECT_DIR$/frontend/lemm/node_modules/bulma/css/bulma.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
-          <caret line="10225" column="33" lean-forward="false" selection-start-line="10225" selection-start-column="14" selection-end-line="10225" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/lemm/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <caret line="10225" column="33" selection-start-line="10225" selection-start-column="14" selection-end-line="10225" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/lemm/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/lemm/src/components/Profile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/lemm/src/components/NavbarMain.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
-          <caret line="51" column="90" lean-forward="false" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
-          <folding />
+          <caret line="51" column="90" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/handlers.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/func.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#14#47#0" expanded="false" />
-          </folding>
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/lemm/src/components/Sender.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/frontend/lemm/src/redux/redux_setup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="-961">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#38#106#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models.go">
+    <entry file="file://$PROJECT_DIR$/sockets.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="223">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/lemm/src/components/MessageShowcase.js">
+    <entry file="file://$PROJECT_DIR$/server.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="416">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+          <folding>
+            <element signature="e#14#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/lemm/src/components/ChatsShowcase.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        <state relative-caret-position="569">
+          <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/lemm/src/components/Sender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -800,21 +718,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/lemm/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state relative-caret-position="-587">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sockets.go">
+    <entry file="file://$PROJECT_DIR$/frontend/lemm/src/components/MessageShowcase.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="83" column="28" lean-forward="false" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+        <state relative-caret-position="459">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="59" />
           <folding>
-            <element signature="e#14#157#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/lemm/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
         </state>
       </provider>
     </entry>

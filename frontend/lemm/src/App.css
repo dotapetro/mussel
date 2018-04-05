@@ -23,4 +23,6 @@
 figure.is-rounded > img{
       border-radius: 50%;
 }
-
+.profile-pic{
+    min-width: 48px;
+}
